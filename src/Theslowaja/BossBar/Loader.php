@@ -3,7 +3,7 @@
 namespace Theslowaja\BossBar;
 
 use pocketmine\{Server, player\Player, plugin\PluginBase, event\Listener, event\player\PlayerJoinEvent, event\player\PlayerQuitEvent, event\entity\EntityTeleportEvent};
-use xenialdan\apibossbar\DiverseBossBar;
+use Theslowaja\BossBar\DiverseBossBar;
 
 class Loader extends PluginBase implements Listener
 {
